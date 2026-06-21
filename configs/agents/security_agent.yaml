@@ -1,0 +1,10 @@
+agent_id: security
+role: security
+description: >
+  Evaluates physical harm, violence, weapons, self-harm, and direct safety risks.
+temperature: 0.0
+output_schema:
+  safe: bool
+  risk_score: float
+  explanation: str
+  category: str
