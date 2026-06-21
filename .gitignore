@@ -13,11 +13,8 @@ venv/
 .mypy_cache/
 .ruff_cache/
 *.ipynb_checkpoints/
-results/runs/*/
 !results/runs/.gitkeep
-data/responses/*/
 !data/responses/.gitkeep
-data/evaluations/*/
 !data/evaluations/.gitkeep
 *.exe
 OllamaSetup.exe

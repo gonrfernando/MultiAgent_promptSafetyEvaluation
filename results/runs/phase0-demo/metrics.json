@@ -1,0 +1,8 @@
+{
+  "run_id": "phase0-demo",
+  "prompt_count": 3,
+  "response_count": 3,
+  "evaluation_count": 12,
+  "disagreement_records": 3,
+  "results_dir": "C:\\Users\\gonrf\\Projects\\agent-disagreement-safety\\results\\runs\\phase0-demo"
+}

@@ -1,0 +1,11 @@
+{
+  "run_id": "pilot-2blocks",
+  "prompt_count": 12,
+  "judge_count": 3,
+  "completed_evaluations": 36,
+  "skipped_evaluations": 0,
+  "refused_or_parse_failures": 0,
+  "evaluations_path": "C:\\Users\\gonrf\\Projects\\agent-disagreement-safety\\data\\evaluations\\pilot-2blocks\\evaluations.jsonl",
+  "disagreement_path": "C:\\Users\\gonrf\\Projects\\agent-disagreement-safety\\data\\evaluations\\pilot-2blocks\\disagreement_metrics.jsonl",
+  "finished_at": "2026-06-21T19:13:14.820835+00:00"
+}

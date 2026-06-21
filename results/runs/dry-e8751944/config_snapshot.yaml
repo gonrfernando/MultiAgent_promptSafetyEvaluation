@@ -1,0 +1,30 @@
+experiment:
+  name: agent-disagreement-safety
+  version: "0.1.0"
+  seed: 42
+
+paths:
+  prompts_dir: data/prompts
+  responses_dir: data/responses
+  evaluations_dir: data/evaluations
+  labels_dir: data/labels
+  results_dir: results/runs
+
+languages:
+  - en
+  - es_neutral
+  - es_slang
+
+evaluators:
+  - security
+  - ethics
+  - policy
+  - critical
+
+generation:
+  temperature: 0.7
+  max_tokens: 1024
+
+evaluation:
+  temperature: 0.0
+  max_tokens: 512

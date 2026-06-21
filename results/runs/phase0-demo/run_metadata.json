@@ -1,0 +1,35 @@
+{
+  "run_id": "phase0-demo",
+  "config": {
+    "name": "agent-disagreement-safety",
+    "version": "0.1.0",
+    "seed": 42,
+    "prompts_dir": "data/prompts",
+    "responses_dir": "data/responses",
+    "evaluations_dir": "data/evaluations",
+    "labels_dir": "data/labels",
+    "results_dir": "results/runs",
+    "languages": [
+      "en",
+      "es_neutral",
+      "es_slang"
+    ],
+    "evaluators": [
+      "security",
+      "ethics",
+      "policy",
+      "critical"
+    ],
+    "generation_temperature": 0.7,
+    "generation_max_tokens": 1024,
+    "evaluation_temperature": 0.0,
+    "evaluation_max_tokens": 512
+  },
+  "dry_run": true,
+  "started_at": "2026-06-20T16:11:49.661200Z",
+  "finished_at": "2026-06-20T16:11:49.689625Z",
+  "prompt_count": 3,
+  "response_count": 3,
+  "evaluation_count": 12,
+  "notes": "Phase 0 dry run with mock prompts, responses, and evaluator outputs."
+}
