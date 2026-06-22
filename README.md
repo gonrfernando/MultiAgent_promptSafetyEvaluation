@@ -6,6 +6,8 @@
 Research pipeline investigating whether disagreement among LLM judges
 can signal unsafe prompts across Spanish variants (neutral and regional slang).
 
+#This repo has two branches, one for each pipeline mentioned in our report
+
 ## Setup
 
 ```powershell
